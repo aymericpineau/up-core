@@ -1,0 +1,18 @@
+# This file was downloaded from https://github.com/aymericpineau/up-board
+# Change "SPMP_5" to your own SSID
+# Change "password" to your own
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp1s0:
+      addresses: [192.168.1.1/24]
+      dhcp4: no
+  wifis:
+    wlx00c0ca9650cd:
+      addresses: []
+      dhcp4: true
+      access-points:
+        D-Link DSL-2640B:
+          password: "DXPmK7kwgxU9FQfcV8ncaM7Gjmx65rPAMLVXAMbzqejAEUx6Y8gkyFbs7e2dzMW"
